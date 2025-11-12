@@ -1,0 +1,27 @@
+{
+  "visaApplyApp": {
+    "dVoitRow": {
+      "home": {
+        "title": "D Voit Rows",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый D Voit Row",
+        "createOrEditLabel": "Создать или отредактировать D Voit Row",
+        "notFound": "D Voit Rows не найдено"
+      },
+      "created": "Новый D Voit Row создан с идентификатором {{ param }}",
+      "updated": "D Voit Row обновлен с идентификатором {{ param }}",
+      "deleted": "D Voit Row удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить D Voit Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Voit Row"
+      },
+      "id": "ID",
+      "vnom": "Vnom",
+      "vime": "Vime",
+      "bgime": "Bgime",
+      "bgadres": "Bgadres"
+    }
+  }
+}

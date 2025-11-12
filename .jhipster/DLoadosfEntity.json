@@ -1,0 +1,93 @@
+{
+  "annotations": {
+    "changelogDate": "20251030092036"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "d_loadosf_entity",
+  "fields": [
+    {
+      "fieldName": "version",
+      "fieldType": "Double"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "DLoadosfEntity",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "dMsgheaderRow",
+      "relationshipName": "msgheader",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dLcuzRow",
+      "relationshipName": "lcuz",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dLcdopRow",
+      "relationshipName": "lcdop",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dBastaRow",
+      "relationshipName": "bastaEntity",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dMaikaRow",
+      "relationshipName": "maika",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dSaprugaRow",
+      "relationshipName": "sapruga",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "molbaRow",
+      "relationshipName": "molba",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dDomakinRow",
+      "relationshipName": "domakin",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dEurodaRow",
+      "relationshipName": "euroda",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dVoitRow",
+      "relationshipName": "voit",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dImagesRow",
+      "relationshipName": "images",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "dFingersRow",
+      "relationshipName": "fingers",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity DFingersRow.
+    -->
+    <changeSet id="20251030092032-1" author="jhipster">
+        <createTable tableName="d_fingers_row">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="fn_datreg" type="date">
+                <constraints nullable="false" />
+            </column>
+            <column name="fn_datvav" type="${datetimeType}">
+                <constraints nullable="false" />
+            </column>
+            <column name="fn_usera" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="fn_sid" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_pnr" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_vidmol" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="fn_drugi" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="fn_deviceid" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_scanres" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_width" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_height" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_pixeldepth" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_compressalgo" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_fingerposition" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="fn_imagequality" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_image" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_imglen" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="fn_nottakenreason" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+        <dropDefaultValue tableName="d_fingers_row" columnName="fn_datvav" columnDataType="${datetimeType}"/>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20251030092032-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/d_fingers_row.csv"
+                  separator=";"
+                  tableName="d_fingers_row"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="fn_datreg" type="date"/>
+            <column name="fn_datvav" type="date"/>
+            <column name="fn_usera" type="string"/>
+            <column name="fn_sid" type="numeric"/>
+            <column name="fn_pnr" type="numeric"/>
+            <column name="fn_vidmol" type="string"/>
+            <column name="fn_drugi" type="string"/>
+            <column name="fn_deviceid" type="numeric"/>
+            <column name="fn_scanres" type="numeric"/>
+            <column name="fn_width" type="numeric"/>
+            <column name="fn_height" type="numeric"/>
+            <column name="fn_pixeldepth" type="numeric"/>
+            <column name="fn_compressalgo" type="numeric"/>
+            <column name="fn_fingerposition" type="string"/>
+            <column name="fn_imagequality" type="numeric"/>
+            <column name="fn_image" type="string"/>
+            <column name="fn_imglen" type="numeric"/>
+            <column name="fn_nottakenreason" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

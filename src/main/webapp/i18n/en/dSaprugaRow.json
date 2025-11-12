@@ -1,0 +1,24 @@
+{
+  "visaApplyApp": {
+    "dSaprugaRow": {
+      "home": {
+        "title": "D Sapruga Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D Sapruga Row",
+        "createOrEditLabel": "Create or edit a D Sapruga Row",
+        "notFound": "No D Sapruga Rows found"
+      },
+      "created": "A new D Sapruga Row is created with identifier {{ param }}",
+      "updated": "A D Sapruga Row is updated with identifier {{ param }}",
+      "deleted": "A D Sapruga Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D Sapruga Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Sapruga Row"
+      },
+      "id": "ID",
+      "spMrjdarj": "Sp Mrjdarj"
+    }
+  }
+}

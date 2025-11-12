@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20251030092033"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "d_images_row",
+  "fields": [
+    {
+      "fieldName": "imDevicetype",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "imWidth",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "imHeight",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "imImglen",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "imImage",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "DImagesRow",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

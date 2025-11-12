@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "changelogDate": "20251030092038"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "d_msgheader_row",
+  "fields": [
+    {
+      "fieldName": "mhKscreated",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "mhRegnom",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "mhVfsrefno",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "mhUsera",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "mhDatvav",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "DMsgheaderRow",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

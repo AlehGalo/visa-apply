@@ -1,0 +1,28 @@
+{
+  "visaApplyApp": {
+    "dMsgheaderRow": {
+      "home": {
+        "title": "D Msgheader Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D Msgheader Row",
+        "createOrEditLabel": "Create or edit a D Msgheader Row",
+        "notFound": "No D Msgheader Rows found"
+      },
+      "created": "A new D Msgheader Row is created with identifier {{ param }}",
+      "updated": "A D Msgheader Row is updated with identifier {{ param }}",
+      "deleted": "A D Msgheader Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D Msgheader Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Msgheader Row"
+      },
+      "id": "ID",
+      "mhKscreated": "Mh Kscreated",
+      "mhRegnom": "Mh Regnom",
+      "mhVfsrefno": "Mh Vfsrefno",
+      "mhUsera": "Mh Usera",
+      "mhDatvav": "Mh Datvav"
+    }
+  }
+}

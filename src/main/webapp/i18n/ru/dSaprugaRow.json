@@ -1,0 +1,24 @@
+{
+  "visaApplyApp": {
+    "dSaprugaRow": {
+      "home": {
+        "title": "D Sapruga Rows",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый D Sapruga Row",
+        "createOrEditLabel": "Создать или отредактировать D Sapruga Row",
+        "notFound": "D Sapruga Rows не найдено"
+      },
+      "created": "Новый D Sapruga Row создан с идентификатором {{ param }}",
+      "updated": "D Sapruga Row обновлен с идентификатором {{ param }}",
+      "deleted": "D Sapruga Row удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить D Sapruga Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Sapruga Row"
+      },
+      "id": "ID",
+      "spMrjdarj": "Sp Mrjdarj"
+    }
+  }
+}

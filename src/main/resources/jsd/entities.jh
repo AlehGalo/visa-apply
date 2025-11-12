@@ -1,0 +1,162 @@
+entity DBastaRow(d_basta_row) {
+    dcFamil String required maxlength(255),
+    dcImena String required maxlength(255),
+    dcPol String required maxlength(255),
+    dcGrad String required maxlength(255),
+    dcUlica String required maxlength(255)
+}
+
+entity DDomakinRow(d_domakin_row) {
+    dmVid String required maxlength(255),
+    nomPok String required maxlength(255),
+    domGraj String required maxlength(255),
+    domFamil String required maxlength(255),
+    domIme String required maxlength(255),
+    domDarj String required maxlength(255),
+    domNm Integer,
+    domAdres String required maxlength(255),
+    vedDarj String required maxlength(255),
+    vedNm String required maxlength(255)
+}
+
+entity DEurodaRow(d_euroda_row) {
+    euFamil String required maxlength(255),
+    euImena String required maxlength(255),
+    euNacBel String required maxlength(255),
+    euRodstvo String required maxlength(255)
+}
+
+entity DFingersRow(d_fingers_row) {
+    fnDatreg LocalDate required,
+    fnDatvav Instant required,
+    fnUsera String required maxlength(255),
+    fnSid Integer,
+    fnPnr Integer,
+    fnVidmol String required maxlength(255),
+    fnDrugi String required maxlength(255),
+    fnDeviceid Integer,
+    fnScanres Integer,
+    fnWidth Integer,
+    fnHeight Integer,
+    fnPixeldepth Integer,
+    fnCompressalgo Integer,
+    fnFingerposition String required maxlength(255),
+    fnImagequality Integer,
+    fnImage String maxlength(255),
+    fnImglen Integer,
+    fnNottakenreason String maxlength(255)
+}
+
+entity DImagesRow(d_images_row) {
+    imDevicetype Integer,
+    imWidth Integer,
+    imHeight Integer,
+    imImglen Integer,
+    imImage String required maxlength(255)
+}
+
+entity DLcdopRow(d_lcdop_row) {
+    ldMrjdarj String required maxlength(255),
+    ldMrjnm String required maxlength(255),
+    ldMrjgraj String required maxlength(255),
+    ldZenen String required maxlength(255),
+    ldJitDarj String required maxlength(255),
+    ldJitNm String required maxlength(255),
+    ldJitUl String required maxlength(255),
+    ldTel Long,
+    ldRabota String required maxlength(255),
+    ldProfkod String required maxlength(255),
+    ldProfesia String required maxlength(255),
+    ldSlDarj String required maxlength(255),
+    ldSlNm String required maxlength(255),
+    ldSlUl String required maxlength(255)
+}
+
+entity DLcuzRow(d_lcuz_row) {
+    vidZp String required maxlength(255),
+    nacBel String required maxlength(255),
+    nacPasp Integer,
+    paspVal LocalDate required,
+    graj String required maxlength(255),
+    famil String required maxlength(255),
+    imena String required maxlength(255),
+    datRaj String required maxlength(255),
+    pol String required maxlength(255),
+    datIzd LocalDate required
+}
+
+entity DLoadosfEntity(d_loadosf_entity) {
+    version Double
+}
+
+entity DMaikaRow(d_maika_row) {
+    dcFamil String required maxlength(255),
+    dcImena String required maxlength(255),
+    dcPol String required maxlength(255),
+    dcDarj String required maxlength(255),
+    dcGrad String required maxlength(255),
+    dcUlica String required maxlength(255)
+}
+
+entity DMsgheaderRow(d_msgheader_row) {
+    mhKscreated String required maxlength(255),
+    mhRegnom Integer,
+    mhVfsrefno String required maxlength(255),
+    mhUsera String required maxlength(255),
+    mhDatvav String required maxlength(255)
+}
+
+entity DSaprugaRow(d_sapruga_row) {
+    spMrjdarj String required maxlength(255)
+}
+
+entity DVoitRow(d_voit_row) {
+    vnom String required maxlength(255),
+    vime String required maxlength(255),
+    bgime String required maxlength(255),
+    bgadres String required maxlength(255)
+}
+
+entity MolbaRow(molba_row) {
+    datVli LocalDate required,
+    datIzl LocalDate required,
+    vidvis String required maxlength(255),
+    brvl Integer,
+    vidus String required maxlength(255),
+    valvis String required maxlength(255),
+    brdni Integer,
+    cel Integer,
+    molDatVav Instant required,
+    gratis String required maxlength(255),
+    imavisa String required maxlength(255),
+    cenamol Integer,
+    cenacurr String required maxlength(255),
+    maindest String required maxlength(255),
+    maindestnm String required maxlength(255),
+    gkppDarj String required maxlength(255),
+    gkppText String required maxlength(255),
+    textIni String required maxlength(255)
+}
+
+relationship ManyToOne {
+    DLoadosfEntity{msgheader} to DMsgheaderRow
+    DLoadosfEntity{lcuz} to DLcuzRow
+    DLoadosfEntity{lcdop} to DLcdopRow
+    DLoadosfEntity{bastaEntity} to DBastaRow
+    DLoadosfEntity{maika} to DMaikaRow
+    DLoadosfEntity{sapruga} to DSaprugaRow
+    DLoadosfEntity{molba} to MolbaRow
+    DLoadosfEntity{domakin} to DDomakinRow
+    DLoadosfEntity{euroda} to DEurodaRow
+    DLoadosfEntity{voit} to DVoitRow
+    DLoadosfEntity{images} to DImagesRow
+    DLoadosfEntity{fingers} to DFingersRow
+}
+// Options
+service * with serviceClass
+
+paginate * with pagination
+
+dto * with mapstruct
+
+filter *

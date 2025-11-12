@@ -1,0 +1,27 @@
+{
+  "visaApplyApp": {
+    "dEurodaRow": {
+      "home": {
+        "title": "D Euroda Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D Euroda Row",
+        "createOrEditLabel": "Create or edit a D Euroda Row",
+        "notFound": "No D Euroda Rows found"
+      },
+      "created": "A new D Euroda Row is created with identifier {{ param }}",
+      "updated": "A D Euroda Row is updated with identifier {{ param }}",
+      "deleted": "A D Euroda Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D Euroda Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Euroda Row"
+      },
+      "id": "ID",
+      "euFamil": "Eu Famil",
+      "euImena": "Eu Imena",
+      "euNacBel": "Eu Nac Bel",
+      "euRodstvo": "Eu Rodstvo"
+    }
+  }
+}

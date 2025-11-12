@@ -1,0 +1,41 @@
+{
+  "visaApplyApp": {
+    "dFingersRow": {
+      "home": {
+        "title": "D Fingers Rows",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый D Fingers Row",
+        "createOrEditLabel": "Создать или отредактировать D Fingers Row",
+        "notFound": "D Fingers Rows не найдено"
+      },
+      "created": "Новый D Fingers Row создан с идентификатором {{ param }}",
+      "updated": "D Fingers Row обновлен с идентификатором {{ param }}",
+      "deleted": "D Fingers Row удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить D Fingers Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Fingers Row"
+      },
+      "id": "ID",
+      "fnDatreg": "Fn Datreg",
+      "fnDatvav": "Fn Datvav",
+      "fnUsera": "Fn Usera",
+      "fnSid": "Fn Sid",
+      "fnPnr": "Fn Pnr",
+      "fnVidmol": "Fn Vidmol",
+      "fnDrugi": "Fn Drugi",
+      "fnDeviceid": "Fn Deviceid",
+      "fnScanres": "Fn Scanres",
+      "fnWidth": "Fn Width",
+      "fnHeight": "Fn Height",
+      "fnPixeldepth": "Fn Pixeldepth",
+      "fnCompressalgo": "Fn Compressalgo",
+      "fnFingerposition": "Fn Fingerposition",
+      "fnImagequality": "Fn Imagequality",
+      "fnImage": "Fn Image",
+      "fnImglen": "Fn Imglen",
+      "fnNottakenreason": "Fn Nottakenreason"
+    }
+  }
+}

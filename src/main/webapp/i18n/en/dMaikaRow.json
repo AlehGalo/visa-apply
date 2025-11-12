@@ -1,0 +1,29 @@
+{
+  "visaApplyApp": {
+    "dMaikaRow": {
+      "home": {
+        "title": "D Maika Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D Maika Row",
+        "createOrEditLabel": "Create or edit a D Maika Row",
+        "notFound": "No D Maika Rows found"
+      },
+      "created": "A new D Maika Row is created with identifier {{ param }}",
+      "updated": "A D Maika Row is updated with identifier {{ param }}",
+      "deleted": "A D Maika Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D Maika Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Maika Row"
+      },
+      "id": "ID",
+      "dcFamil": "Dc Famil",
+      "dcImena": "Dc Imena",
+      "dcPol": "Dc Pol",
+      "dcDarj": "Dc Darj",
+      "dcGrad": "Dc Grad",
+      "dcUlica": "Dc Ulica"
+    }
+  }
+}

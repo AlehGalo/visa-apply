@@ -1,0 +1,102 @@
+{
+  "annotations": {
+    "changelogDate": "20251030092032"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "d_fingers_row",
+  "fields": [
+    {
+      "fieldName": "fnDatreg",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fnDatvav",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fnUsera",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "fnSid",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnPnr",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnVidmol",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "fnDrugi",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "fnDeviceid",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnScanres",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnWidth",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnHeight",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnPixeldepth",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnCompressalgo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnFingerposition",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "fnImagequality",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnImage",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "fnImglen",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fnNottakenreason",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "DFingersRow",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

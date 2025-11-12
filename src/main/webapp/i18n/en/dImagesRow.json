@@ -1,0 +1,28 @@
+{
+  "visaApplyApp": {
+    "dImagesRow": {
+      "home": {
+        "title": "D Images Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D Images Row",
+        "createOrEditLabel": "Create or edit a D Images Row",
+        "notFound": "No D Images Rows found"
+      },
+      "created": "A new D Images Row is created with identifier {{ param }}",
+      "updated": "A D Images Row is updated with identifier {{ param }}",
+      "deleted": "A D Images Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D Images Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Images Row"
+      },
+      "id": "ID",
+      "imDevicetype": "Im Devicetype",
+      "imWidth": "Im Width",
+      "imHeight": "Im Height",
+      "imImglen": "Im Imglen",
+      "imImage": "Im Image"
+    }
+  }
+}

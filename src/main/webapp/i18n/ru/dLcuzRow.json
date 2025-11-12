@@ -1,0 +1,33 @@
+{
+  "visaApplyApp": {
+    "dLcuzRow": {
+      "home": {
+        "title": "D Lcuz Rows",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый D Lcuz Row",
+        "createOrEditLabel": "Создать или отредактировать D Lcuz Row",
+        "notFound": "D Lcuz Rows не найдено"
+      },
+      "created": "Новый D Lcuz Row создан с идентификатором {{ param }}",
+      "updated": "D Lcuz Row обновлен с идентификатором {{ param }}",
+      "deleted": "D Lcuz Row удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить D Lcuz Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Lcuz Row"
+      },
+      "id": "ID",
+      "vidZp": "Vid Zp",
+      "nacBel": "Nac Bel",
+      "nacPasp": "Nac Pasp",
+      "paspVal": "Pasp Val",
+      "graj": "Graj",
+      "famil": "Famil",
+      "imena": "Imena",
+      "datRaj": "Dat Raj",
+      "pol": "Pol",
+      "datIzd": "Dat Izd"
+    }
+  }
+}

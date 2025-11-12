@@ -1,0 +1,28 @@
+{
+  "visaApplyApp": {
+    "dBastaRow": {
+      "home": {
+        "title": "D Basta Rows",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый D Basta Row",
+        "createOrEditLabel": "Создать или отредактировать D Basta Row",
+        "notFound": "D Basta Rows не найдено"
+      },
+      "created": "Новый D Basta Row создан с идентификатором {{ param }}",
+      "updated": "D Basta Row обновлен с идентификатором {{ param }}",
+      "deleted": "D Basta Row удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить D Basta Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Basta Row"
+      },
+      "id": "ID",
+      "dcFamil": "Dc Famil",
+      "dcImena": "Dc Imena",
+      "dcPol": "Dc Pol",
+      "dcGrad": "Dc Grad",
+      "dcUlica": "Dc Ulica"
+    }
+  }
+}

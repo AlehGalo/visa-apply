@@ -1,0 +1,28 @@
+{
+  "visaApplyApp": {
+    "dMsgheaderRow": {
+      "home": {
+        "title": "D Msgheader Rows",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый D Msgheader Row",
+        "createOrEditLabel": "Создать или отредактировать D Msgheader Row",
+        "notFound": "D Msgheader Rows не найдено"
+      },
+      "created": "Новый D Msgheader Row создан с идентификатором {{ param }}",
+      "updated": "D Msgheader Row обновлен с идентификатором {{ param }}",
+      "deleted": "D Msgheader Row удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить D Msgheader Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Msgheader Row"
+      },
+      "id": "ID",
+      "mhKscreated": "Mh Kscreated",
+      "mhRegnom": "Mh Regnom",
+      "mhVfsrefno": "Mh Vfsrefno",
+      "mhUsera": "Mh Usera",
+      "mhDatvav": "Mh Datvav"
+    }
+  }
+}

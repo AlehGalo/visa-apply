@@ -1,0 +1,33 @@
+{
+  "visaApplyApp": {
+    "dLcuzRow": {
+      "home": {
+        "title": "D Lcuz Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D Lcuz Row",
+        "createOrEditLabel": "Create or edit a D Lcuz Row",
+        "notFound": "No D Lcuz Rows found"
+      },
+      "created": "A new D Lcuz Row is created with identifier {{ param }}",
+      "updated": "A D Lcuz Row is updated with identifier {{ param }}",
+      "deleted": "A D Lcuz Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D Lcuz Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Lcuz Row"
+      },
+      "id": "ID",
+      "vidZp": "Vid Zp",
+      "nacBel": "Nac Bel",
+      "nacPasp": "Nac Pasp",
+      "paspVal": "Pasp Val",
+      "graj": "Graj",
+      "famil": "Famil",
+      "imena": "Imena",
+      "datRaj": "Dat Raj",
+      "pol": "Pol",
+      "datIzd": "Dat Izd"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity DLoadosfEntity.
+    -->
+    <changeSet id="20251030092036-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="msgheader_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__msgheader_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_msgheader_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="lcuz_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__lcuz_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_lcuz_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="lcdop_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__lcdop_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_lcdop_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="basta_entity_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__basta_entity_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_basta_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="maika_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__maika_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_maika_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="sapruga_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__sapruga_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_sapruga_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="molba_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__molba_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="molba_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="domakin_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__domakin_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_domakin_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="euroda_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__euroda_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_euroda_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="voit_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__voit_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_voit_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="images_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__images_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_images_row"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="fingers_id"
+                                 baseTableName="d_loadosf_entity"
+                                 constraintName="fk_d_loadosf_entity__fingers_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="d_fingers_row"
+                                 />
+    </changeSet>
+</databaseChangeLog>

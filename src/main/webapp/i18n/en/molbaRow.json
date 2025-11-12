@@ -1,0 +1,41 @@
+{
+  "visaApplyApp": {
+    "molbaRow": {
+      "home": {
+        "title": "Molba Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Molba Row",
+        "createOrEditLabel": "Create or edit a Molba Row",
+        "notFound": "No Molba Rows found"
+      },
+      "created": "A new Molba Row is created with identifier {{ param }}",
+      "updated": "A Molba Row is updated with identifier {{ param }}",
+      "deleted": "A Molba Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Molba Row {{ id }}?"
+      },
+      "detail": {
+        "title": "Molba Row"
+      },
+      "id": "ID",
+      "datVli": "Dat Vli",
+      "datIzl": "Dat Izl",
+      "vidvis": "Vidvis",
+      "brvl": "Brvl",
+      "vidus": "Vidus",
+      "valvis": "Valvis",
+      "brdni": "Brdni",
+      "cel": "Cel",
+      "molDatVav": "Mol Dat Vav",
+      "gratis": "Gratis",
+      "imavisa": "Imavisa",
+      "cenamol": "Cenamol",
+      "cenacurr": "Cenacurr",
+      "maindest": "Maindest",
+      "maindestnm": "Maindestnm",
+      "gkppDarj": "Gkpp Darj",
+      "gkppText": "Gkpp Text",
+      "textIni": "Text Ini"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "visaApplyApp": {
+    "dDomakinRow": {
+      "home": {
+        "title": "D Domakin Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D Domakin Row",
+        "createOrEditLabel": "Create or edit a D Domakin Row",
+        "notFound": "No D Domakin Rows found"
+      },
+      "created": "A new D Domakin Row is created with identifier {{ param }}",
+      "updated": "A D Domakin Row is updated with identifier {{ param }}",
+      "deleted": "A D Domakin Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D Domakin Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Domakin Row"
+      },
+      "id": "ID",
+      "dmVid": "Dm Vid",
+      "nomPok": "Nom Pok",
+      "domGraj": "Dom Graj",
+      "domFamil": "Dom Famil",
+      "domIme": "Dom Ime",
+      "domDarj": "Dom Darj",
+      "domNm": "Dom Nm",
+      "domAdres": "Dom Adres",
+      "vedDarj": "Ved Darj",
+      "vedNm": "Ved Nm"
+    }
+  }
+}

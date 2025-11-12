@@ -1,0 +1,36 @@
+{
+  "visaApplyApp": {
+    "dLoadosfEntity": {
+      "home": {
+        "title": "D Loadosf Entities",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый D Loadosf Entity",
+        "createOrEditLabel": "Создать или отредактировать D Loadosf Entity",
+        "notFound": "D Loadosf Entities не найдено"
+      },
+      "created": "Новый D Loadosf Entity создан с идентификатором {{ param }}",
+      "updated": "D Loadosf Entity обновлен с идентификатором {{ param }}",
+      "deleted": "D Loadosf Entity удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить D Loadosf Entity {{ id }}?"
+      },
+      "detail": {
+        "title": "D Loadosf Entity"
+      },
+      "id": "ID",
+      "version": "Version",
+      "msgheader": "Msgheader",
+      "lcuz": "Lcuz",
+      "lcdop": "Lcdop",
+      "bastaEntity": "Basta Entity",
+      "maika": "Maika",
+      "sapruga": "Sapruga",
+      "molba": "Molba",
+      "domakin": "Domakin",
+      "euroda": "Euroda",
+      "voit": "Voit",
+      "images": "Images",
+      "fingers": "Fingers"
+    }
+  }
+}

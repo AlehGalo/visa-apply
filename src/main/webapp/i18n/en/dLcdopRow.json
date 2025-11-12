@@ -1,0 +1,37 @@
+{
+  "visaApplyApp": {
+    "dLcdopRow": {
+      "home": {
+        "title": "D Lcdop Rows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new D Lcdop Row",
+        "createOrEditLabel": "Create or edit a D Lcdop Row",
+        "notFound": "No D Lcdop Rows found"
+      },
+      "created": "A new D Lcdop Row is created with identifier {{ param }}",
+      "updated": "A D Lcdop Row is updated with identifier {{ param }}",
+      "deleted": "A D Lcdop Row is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete D Lcdop Row {{ id }}?"
+      },
+      "detail": {
+        "title": "D Lcdop Row"
+      },
+      "id": "ID",
+      "ldMrjdarj": "Ld Mrjdarj",
+      "ldMrjnm": "Ld Mrjnm",
+      "ldMrjgraj": "Ld Mrjgraj",
+      "ldZenen": "Ld Zenen",
+      "ldJitDarj": "Ld Jit Darj",
+      "ldJitNm": "Ld Jit Nm",
+      "ldJitUl": "Ld Jit Ul",
+      "ldTel": "Ld Tel",
+      "ldRabota": "Ld Rabota",
+      "ldProfkod": "Ld Profkod",
+      "ldProfesia": "Ld Profesia",
+      "ldSlDarj": "Ld Sl Darj",
+      "ldSlNm": "Ld Sl Nm",
+      "ldSlUl": "Ld Sl Ul"
+    }
+  }
+}

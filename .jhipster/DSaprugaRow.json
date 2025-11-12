@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "changelogDate": "20251030092039"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "d_sapruga_row",
+  "fields": [
+    {
+      "fieldName": "spMrjdarj",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "DSaprugaRow",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

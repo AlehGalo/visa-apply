@@ -1,7 +1,19 @@
 FROM maven:3.8.5-openjdk-17 AS build
+
+WORKDIR /app
+
 COPY . .
+
+# Build the application using Maven
 RUN mvn clean package -DskipTests
+
 FROM openjdk:17.0.1-jdk-slim
-COPY target/*.jar app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+
+WORKDIR /app
+
+COPY --from=build /app/target/*.jar .
+
 EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","/app.jar"]
+

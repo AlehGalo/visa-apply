@@ -19,7 +19,6 @@ logging:
     tech.jhipster: DEBUG
     org.hibernate.SQL: DEBUG
     com.visa.apply: DEBUG
-
 spring:
   devtools:
     restart:
@@ -33,9 +32,10 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=apply
-    username: postgres
-    password: postgres
+
+    url: jdbc:postgresql://dpg-d49mo7he2q1c73dn7st0-a.frankfurt-postgres.render.com/visa_apply_database
+    username: visa_apply_database_user
+    password: LUphfsPyIEnQIA6F6lREUpVVytcv9REX
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -51,6 +51,9 @@ spring:
     cache-duration: PT1S # 1 second, see the ISO 8601 standard
   thymeleaf:
     cache: false
+  data:
+    jdbc:
+      dialect: postgresql
 
 server:
   port: 8082

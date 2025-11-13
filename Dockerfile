@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-# Build the application using Maven
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
@@ -15,5 +14,5 @@ COPY --from=build /app/target/*.jar .
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","/visa-apply-0.0.1-SNAPSHOT.jar"]
 

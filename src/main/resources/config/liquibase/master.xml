@@ -12,8 +12,6 @@
   <property name="timeType" value="time(6)" dbms="postgresql"/>
 
   <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
-<!--  <include file="changelog/2025-10-24-initial-database-structure.yaml" relativeToChangelogFile="true"/>-->
-<!--  <include file="changelog/2025-10-28-aggregation-table-structure.yaml" relativeToChangelogFile="true"/>-->
   <include file="changelog/20251030092029_added_entity_DBastaRow.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092030_added_entity_DDomakinRow.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092031_added_entity_DEurodaRow.xml" relativeToChangelogFile="true"/>

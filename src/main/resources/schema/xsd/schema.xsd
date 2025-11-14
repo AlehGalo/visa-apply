@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+    <xsd:element name="d_loadosf">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="d_msgheader">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_msgheader_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_lcuz">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_lcuz_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_lcdop">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_lcdop_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_basta">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_basta_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_maika">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_maika_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_sapruga">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_sapruga_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_molba">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="molba_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_domakin">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_domakin_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_euroda">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_euroda_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_voit">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_voit_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_images">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_images_row"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="d_fingers">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="d_fingers_row" maxOccurs="unbounded" minOccurs="0"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute type="xsd:float" name="version"/>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_lcuz_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="vid_zp"/>
+                <xsd:element type="xsd:string" name="nac_bel"/>
+                <xsd:element type="xsd:int" name="nac_pasp"/>
+                <xsd:element type="xsd:date" name="pasp_val"/>
+                <xsd:element type="xsd:string" name="graj"/>
+                <xsd:element type="xsd:string" name="famil"/>
+                <xsd:element type="xsd:string" name="imena"/>
+                <xsd:element type="xsd:string" name="dat_raj"/>
+                <xsd:element type="xsd:string" name="pol"/>
+                <xsd:element type="xsd:date" name="dat_izd"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_lcdop_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="ld_mrjdarj"/>
+                <xsd:element type="xsd:string" name="ld_mrjnm"/>
+                <xsd:element type="xsd:string" name="ld_mrjgraj"/>
+                <xsd:element type="xsd:string" name="ld_zenen"/>
+                <xsd:element type="xsd:string" name="ld_jit_darj"/>
+                <xsd:element type="xsd:string" name="ld_jit_nm"/>
+                <xsd:element type="xsd:string" name="ld_jit_ul"/>
+                <xsd:element type="xsd:long" name="ld_tel"/>
+                <xsd:element type="xsd:string" name="ld_rabota"/>
+                <xsd:element type="xsd:string" name="ld_profkod"/>
+                <xsd:element type="xsd:string" name="ld_profesia"/>
+                <xsd:element type="xsd:string" name="ld_sl_darj"/>
+                <xsd:element type="xsd:string" name="ld_sl_nm"/>
+                <xsd:element type="xsd:string" name="ld_sl_ul"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_basta_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="dc_famil"/>
+                <xsd:element type="xsd:string" name="dc_imena"/>
+                <xsd:element type="xsd:string" name="dc_pol"/>
+                <xsd:element type="xsd:string" name="dc_grad"/>
+                <xsd:element type="xsd:string" name="dc_ulica"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_maika_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="dc_famil"/>
+                <xsd:element type="xsd:string" name="dc_imena"/>
+                <xsd:element type="xsd:string" name="dc_pol"/>
+                <xsd:element type="xsd:string" name="dc_darj"/>
+                <xsd:element type="xsd:string" name="dc_grad"/>
+                <xsd:element type="xsd:string" name="dc_ulica"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_sapruga_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="sp_mrjdarj"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="molba_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:date" name="dat_vli"/>
+                <xsd:element type="xsd:date" name="dat_izl"/>
+                <xsd:element type="xsd:string" name="vidvis"/>
+                <xsd:element type="xsd:byte" name="brvl"/>
+                <xsd:element type="xsd:string" name="vidus"/>
+                <xsd:element type="xsd:string" name="valvis"/>
+                <xsd:element type="xsd:byte" name="brdni"/>
+                <xsd:element type="xsd:byte" name="cel"/>
+                <xsd:element type="xsd:dateTime" name="mol_dat_vav"/>
+                <xsd:element type="xsd:string" name="gratis"/>
+                <xsd:element type="xsd:string" name="imavisa"/>
+                <xsd:element type="xsd:byte" name="cenamol"/>
+                <xsd:element type="xsd:string" name="cenacurr"/>
+                <xsd:element type="xsd:string" name="maindest"/>
+                <xsd:element type="xsd:string" name="maindestnm"/>
+                <xsd:element type="xsd:string" name="gkpp_darj"/>
+                <xsd:element type="xsd:string" name="gkpp_text"/>
+                <xsd:element type="xsd:string" name="text_ini"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_domakin_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="dm_vid"/>
+                <xsd:element type="xsd:string" name="nom_pok"/>
+                <xsd:element type="xsd:string" name="dom_graj"/>
+                <xsd:element type="xsd:string" name="dom_famil"/>
+                <xsd:element type="xsd:string" name="dom_ime"/>
+                <xsd:element type="xsd:string" name="dom_darj"/>
+                <xsd:element type="xsd:short" name="dom_nm"/>
+                <xsd:element type="xsd:string" name="dom_adres"/>
+                <xsd:element type="xsd:string" name="ved_darj"/>
+                <xsd:element type="xsd:string" name="ved_nm"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_voit_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="vnom"/>
+                <xsd:element type="xsd:string" name="vime"/>
+                <xsd:element type="xsd:string" name="bgime"/>
+                <xsd:element type="xsd:string" name="bgadres"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_euroda_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="eu_famil"/>
+                <xsd:element type="xsd:string" name="eu_imena"/>
+                <xsd:element type="xsd:string" name="eu_nac_bel"/>
+                <xsd:element type="xsd:string" name="eu_rodstvo"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_images_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:byte" name="im_devicetype"/>
+                <xsd:element type="xsd:short" name="im_width"/>
+                <xsd:element type="xsd:short" name="im_height"/>
+                <xsd:element type="xsd:short" name="im_imglen"/>
+                <xsd:element type="xsd:string" name="im_image"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_fingers_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:date" name="fn_datreg"/>
+                <xsd:element type="xsd:dateTime" name="fn_datvav"/>
+                <xsd:element type="xsd:string" name="fn_usera"/>
+                <xsd:element type="xsd:int" name="fn_sid"/>
+                <xsd:element type="xsd:byte" name="fn_pnr"/>
+                <xsd:element type="xsd:string" name="fn_vidmol"/>
+                <xsd:element type="xsd:string" name="fn_drugi"/>
+                <xsd:element type="xsd:short" name="fn_deviceid"/>
+                <xsd:element type="xsd:short" name="fn_scanres"/>
+                <xsd:element type="xsd:short" name="fn_width"/>
+                <xsd:element type="xsd:short" name="fn_height"/>
+                <xsd:element type="xsd:byte" name="fn_pixeldepth"/>
+                <xsd:element type="xsd:byte" name="fn_compressalgo"/>
+                <xsd:element type="xsd:string" name="fn_fingerposition"/>
+                <xsd:element type="xsd:byte" name="fn_imagequality"/>
+                <xsd:element type="xsd:string" name="fn_image" minOccurs="0"/>
+                <xsd:element type="xsd:int" name="fn_imglen" minOccurs="0"/>
+                <xsd:element type="xsd:string" name="fn_nottakenreason" minOccurs="0"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="d_msgheader_row">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="mh_kscreated"/>
+                <xsd:element type="xsd:int" name="mh_regnom"/>
+                <xsd:element type="xsd:string" name="mh_vfsrefno"/>
+                <xsd:element type="xsd:string" name="mh_usera"/>
+                <xsd:element type="xsd:string" name="mh_datvav"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -6,7 +6,7 @@ import static com.visa.apply.domain.DBastaRowTestSamples.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class DBastaRowMapperTest {
+class BastaJaxbMapperTest {
 
     private DBastaRowMapper dBastaRowMapper;
 

@@ -52,7 +52,7 @@ entity DImagesRow(d_images_row) {
     imWidth Integer,
     imHeight Integer,
     imImglen Integer,
-    imImage String required maxlength(255)
+    imImage ImageBlob required
 }
 
 entity DLcdopRow(d_lcdop_row) {

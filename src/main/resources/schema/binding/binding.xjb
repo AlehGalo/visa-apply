@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jaxb:bindings xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb"
+               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+               xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+               schemaLocation="../xsd/schema.xsd"
+               jaxb:version="3.0">
+  <jaxb:globalBindings>
+    <xjc:javaType name="java.time.LocalDate"
+                  xmlType="xsd:date"
+                  adapter="com.visa.apply.xml.adapter.LocalDateAdapter"/>
+
+    <xjc:javaType name="java.time.LocalDateTime"
+                  xmlType="xsd:dateTime"
+                  adapter="com.visa.apply.xml.adapter.LocalDateTimeAdapter"/>
+  </jaxb:globalBindings>
+
+<!--  <jaxb:bindings node="//xsd:element[@name='d_loadosf']/xsd:complexType">-->
+<!--    <jaxb:class name="LoadOsf"/>-->
+<!--  </jaxb:bindings>-->
+
+  <jaxb:bindings node="//xsd:element[@name='d_msgheader_row']/xsd:complexType">
+    <jaxb:class name="MsgHeader"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_lcuz_row']/xsd:complexType">
+    <jaxb:class name="Lcuz"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_lcdop_row']/xsd:complexType">
+    <jaxb:class name="Lcdop"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_basta_row']/xsd:complexType">
+    <jaxb:class name="Basta"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_maika_row']/xsd:complexType">
+    <jaxb:class name="Maika"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_sapruga_row']/xsd:complexType">
+    <jaxb:class name="Sapruga"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='molba_row']/xsd:complexType">
+    <jaxb:class name="Molba"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_domakin_row']/xsd:complexType">
+    <jaxb:class name="Domakin"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_euroda_row']/xsd:complexType">
+    <jaxb:class name="Euroda"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_voit_row']/xsd:complexType">
+    <jaxb:class name="Voit"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_images_row']/xsd:complexType">
+    <jaxb:class name="Images"/>
+  </jaxb:bindings>
+
+  <jaxb:bindings node="//xsd:element[@name='d_fingers_row']/xsd:complexType">
+    <jaxb:class name="Fingers"/>
+  </jaxb:bindings>
+</jaxb:bindings>

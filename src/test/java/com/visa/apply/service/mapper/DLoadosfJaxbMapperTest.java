@@ -6,7 +6,7 @@ import static com.visa.apply.domain.DLoadosfEntityTestSamples.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class DLoadosfEntityMapperTest {
+class DLoadosfJaxbMapperTest {
 
     private DLoadosfEntityMapper dLoadosfEntityMapper;
 

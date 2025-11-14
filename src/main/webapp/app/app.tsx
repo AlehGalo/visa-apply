@@ -3,6 +3,7 @@ import './app.scss';
 import 'app/config/dayjs';
 
 import React, { useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import { Card } from 'reactstrap';
 import { BrowserRouter } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
@@ -61,5 +62,24 @@ export const App = () => {
     </BrowserRouter>
   );
 };
+
+// const ThemeLoader = () => {
+//   const currentTheme = useSelector((state: IRootState) => state.theme.currentTheme);
+//
+//   useEffect(() => {
+//     const themeLink = document.getElementById('bootswatch-theme') as HTMLLinkElement;
+//     if (themeLink) {
+//       if (currentTheme === 'default') {
+//         // Use the default JHipster SCSS which includes standard bootstrap
+//         themeLink.href = 'content/css/main.css'; // Adjust path to your main compiled CSS
+//       } else {
+//         // Load the Bootswatch CSS from node_modules
+//         themeLink.href = `node_modules/bootswatch/dist/${currentTheme}/bootstrap.min.css`; // Adjust path as necessary
+//       }
+//     }
+//   }, [currentTheme]);
+//
+//   return null; // This component doesn't render anything, it just manages the side effect
+// };
 
 export default App;

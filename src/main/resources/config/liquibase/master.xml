@@ -21,11 +21,11 @@
   <include file="changelog/20251030092033_added_entity_DImagesRow.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092034_added_entity_DLcdopRow.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092035_added_entity_DLcuzRow.xml" relativeToChangelogFile="true"/>
-  <include file="changelog/20251030092036_added_entity_constraints_DLoadosfEntity.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092036_added_entity_DLoadosfEntity.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092037_added_entity_DMaikaRow.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092038_added_entity_DMsgheaderRow.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092039_added_entity_DSaprugaRow.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092040_added_entity_DVoitRow.xml" relativeToChangelogFile="true"/>
   <include file="changelog/20251030092041_added_entity_MolbaRow.xml" relativeToChangelogFile="true"/>
+  <include file="changelog/20251030092036_added_entity_constraints_DLoadosfEntity.xml" relativeToChangelogFile="true"/>
   </databaseChangeLog>

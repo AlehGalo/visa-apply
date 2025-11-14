@@ -32,7 +32,6 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: org.postgresql.Driver
-
     url: jdbc:postgresql://dpg-d49mo7he2q1c73dn7st0-a.frankfurt-postgres.render.com/visa_apply_database
     username: visa_apply_database_user
     password: LUphfsPyIEnQIA6F6lREUpVVytcv9REX
@@ -56,7 +55,7 @@ spring:
       dialect: postgresql
 
 server:
-  port: 8082
+  port: 8080
   # make sure requests the proxy uri instead of the server one
   forward-headers-strategy: native
 
